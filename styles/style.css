@@ -44,6 +44,12 @@ body{
     text-transform: uppercase;
     border-radius: 25px;
     font-family: 'Overpass', sans-serif;
+    display:flex;
+    margin-top: 25px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
 }
 .submit:hover{
@@ -61,4 +67,18 @@ body{
 .btn>button:hover{
     background-color: hsl(217, 12%, 63%);
     color:white;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.textbox{
+    position: absolute;
+    top: 200px;
+    right: 650px;
+    color: white;
+    display: none;
 }
