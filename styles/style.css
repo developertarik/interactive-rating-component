@@ -15,10 +15,9 @@ body{
     flex-direction: column;
      justify-content: space-evenly;
     padding:30px;
-    background-color:hsl(213, 19%, 8%);
-    margin-left: 400px;
+     margin-left: 400px;
     margin-top: 200px;
-
+background-color: hsl(213, 19%, 18%);
 }
 .star{
     
